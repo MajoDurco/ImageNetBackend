@@ -1,0 +1,25 @@
+{
+  "name": "operam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon ./index.js",
+    "start": "node ./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "2.8.5",
+    "dotenv": "6.2.0",
+    "express": "4.16.4",
+    "helmet": "3.15.0",
+    "jest": "23.6.0",
+    "mongoose": "5.3.15",
+    "morgan": "1.9.1",
+    "nodemon": "1.18.7",
+    "xml2js": "0.4.19"
+  }
+}
