@@ -8,6 +8,14 @@ function createNewNode(id, name, size, childrens=true) {
     : newNode
 }
 
+/* 
+  Time Complexity: O(N), N - number of the nodes
+  We need to iterate through all N nodes
+  To find the parent node of processing node is O(1) because of the
+  reference object.
+  To put node into children's array of a parent is
+  simple push which can be done also on O(1)
+*/
 function makeTree(data) {
   if (data.length === 0) return {}
   const [ rootNode, ...tail ] = data
